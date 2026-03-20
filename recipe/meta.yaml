@@ -1,5 +1,5 @@
 {% set name = "scgraph" %}
-{% set version = "2.14.1" %}
+{% set version = "3.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scgraph-{{ version }}.tar.gz
-  sha256: c0460f851ee101a5f06b057cf10f8f5f1408e4ab7ceb9ff01f77c453a8bb8d08
+  sha256: 66897dea1dc4c5fa2f732ea557801071b99db4ccea9f396025af41d40a4b5116
 
 build:
   noarch: python
